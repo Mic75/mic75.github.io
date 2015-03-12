@@ -20,3 +20,16 @@ body {
   font-size: 1.5em;
   color: #dce2e7;
 }
+
+#container img {
+  /* below appends the magic */
+  transform: perspective(400px) rotateX(0deg);
+  transform-origin: 50% 0 0;
+  transition: all 1s ease-out;
+}
+
+#container img:hover {
+  transform: perspective(400px) rotateX(2deg);
+  transform-origin: 50% 0 0;
+  transition: all 0.5s ease;
+}
