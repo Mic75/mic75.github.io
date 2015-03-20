@@ -40,12 +40,15 @@ nav a:hover {
   transition: color 1s ease
 }
 
-/*Main container*/
+/*Main content*/
 #content {
   text-align: center;
   font-size: 1.3em;
 }
 
+.project {
+  text-align: left;
+}
 
 /*Special component*/
 
