@@ -1,5 +1,3 @@
-basesite: http://mathieubenard.me
-
 defaults:
   -
     scope:

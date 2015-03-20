@@ -1,34 +1,76 @@
-header {
-  background-image: url("../img/footer_lodyas.png")
-}
-
-html,body {
-  height: 100%;
-}
-
+/*Global*/
 body {
-  display: flex;
-  margin: 0;
-  background-image: url("../img/concrete_bg.png")
+  background-image: url("/img/concrete_bg.png");
 }
 
-#container {
+#content {
+  width: 960px;
   margin: auto;
-  text-align: center;
-  text-shadow: 1px 2px 0 rgba(0,0,0,0.4), -1px -2px 0 rgba(255,255,255,1);
-  font-family: "Trebuchet MS";
-  font-size: 1.5em;
-  color: #dce2e7;
 }
 
-#container img {
+/*Menu*/
+header{
+  background-image: url("/img/vertical_cloth.png");
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#identity{
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav a {
+  text-decoration: none;
+  color: lightgray;
+  margin: 0 0 10px 10px;
+}
+
+nav a:hover {
+  border-bottom: solid 5px dodgerblue;
+  margin-bottom: 5px;
+  color: white;
+  transition: color 1s ease
+}
+
+/*Main container*/
+#content {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+
+/*Special component*/
+
+.summary {
+  margin-top: 20px;
+}
+
+.summary p {
+  margin: 0;
+}
+
+.summary a, #wip {
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+  text-shadow: white 1px 1px 0px;
+}
+
+#wip img {
   /* below appends the magic */
   transform: perspective(400px) rotateX(0deg);
   transform-origin: 50% 0 0;
   transition: all 1s ease-out;
 }
 
-#container img:hover {
+#wip img:hover {
   transform: perspective(400px) rotateX(2deg);
   transform-origin: 50% 0 0;
   transition: all 0.5s ease;
