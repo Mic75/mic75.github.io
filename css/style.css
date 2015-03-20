@@ -51,7 +51,8 @@ nav a:hover {
 }
 
 .project a {
-  color: lightskyblue;
+  color: rgb(146, 188, 255);
+  text-decoration: none;
 }
 
 /*Special component*/
