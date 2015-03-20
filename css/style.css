@@ -47,7 +47,11 @@ nav a:hover {
 }
 
 .project {
-  text-align: left;
+  text-align: justify;
+}
+
+.project a {
+  color: lightskyblue;
 }
 
 /*Special component*/
