@@ -1,6 +1,18 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
 /*Global*/
+
+html, body {
+  height: 100%;
+}
+
 body {
   background-image: url("/img/shattered.png");
+}
+
+#wrapper{
+  min-height: 100%;
 }
 
 #content {
@@ -15,33 +27,24 @@ footer, header {
 }
 
 footer {
-  position: absolute;
-  bottom: 0px;
   width: 100%;
   height: 120px;
+  margin-top: -120px
 }
 
 header{
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  padding: 1px 0px 5px 0px;
+  text-align: center;
 }
 
 #identity{
   color: white;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-}
-
 nav a {
   text-decoration: none;
   color: lightgray;
-  margin: 0 0 10px 10px;
+  margin-left: 5px;
 }
 
 nav a:hover {
@@ -53,6 +56,7 @@ nav a:hover {
 
 /*Main content*/
 #content {
+  margin-top: 50px;
   text-align: center;
   font-size: 1.3em;
 }
@@ -70,17 +74,50 @@ nav a:hover {
 
 .summary {
   margin-top: 20px;
+  padding: 0px;
 }
 
-.summary p {
-  margin: 0;
+.summary li {
+  list-style: none;
+  text-align: left;
+  position: relative;
+  border-bottom: inset 1px grey;
 }
 
-.summary a, #wip {
+.summary li h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  margin: 0px;
+}
+
+.summary li p{
+  font-size: 0.8em;
+  margin: 0px;
+  font: 'Roboto Condensed', sans-serif;
+}
+
+.summary li a {
   text-decoration: none;
-  color: rgb(155, 155, 155);
-  text-shadow: white 1px 1px 0px;
+  color: inherit;
 }
+
+.summary-abstract {
+  padding: 10px 0px 10px 110px;
+  text-align: justify;
+}
+
+.summary-thumb {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100px;
+  top: 0px;
+  display: block;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* WIP placeholder */
 
 #wip img {
   /* below appends the magic */
