@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+    <link rel="stylesheet" href="{{ site.basesite }}/css/style.css">
+  </head>
+  <body>
+     <div id="wrapper">
+        <header>
+          <p id="identity">Mathieu B&eacute;nard</p>
+          <nav>
+            <a href="{{ site.basesite }}/">HOME</a>
+            <a href="{{ site.basesite }}/projects">PROJECTS</a>
+            <a href="{{ site.basesite }}/about">ABOUT</a>
+          </nav>
+        </header>
+        <div id="content">
+          {{content}}
+        </div>
+     </div>
+    <footer> <a href="https://twitter.com/mat_benard" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @mat_benard</a></footer>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </body>
+</html>
