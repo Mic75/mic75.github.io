@@ -24,7 +24,7 @@ body {
   width: 960px;
   margin: auto;
   padding: 50px 0 150px;
-  text-align: left;
+  text-align: justify;
 }
 
 .content h1 {
@@ -140,7 +140,7 @@ footer p a {
 .summary li h1{
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.5em;
   margin: 0 0 0.5em;
   color: rgba(138, 138, 138, 0.8);
   text-shadow: 1px 2px 1px #E4DEDE, 0px 0px 0px rgb(0, 0, 0); 
@@ -161,7 +161,6 @@ footer p a {
 
 .summary-abstract {
   padding: 10px 10px 10px 110px;
-  text-align: justify;  
 }
 
 .summary-abstract:hover {
