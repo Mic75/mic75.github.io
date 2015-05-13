@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-  background-image: url("{{ site.baseurl }}/img/shattered.png");
+  background-image: url("/img/layout/shattered.png");
 }
 
 #wrapper{
@@ -61,7 +61,7 @@ body {
 /*Header & Footer*/
 
 footer, header {
-  background-image: url("{{ site.baseurl }}/img/footer_lodyas.png");
+  background-image: url("/img/layout/footer_lodyas.png");
 }
 
 footer {
