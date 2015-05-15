@@ -158,18 +158,18 @@ footer p a {
   outline: 0;
 }
 
-.summary-abstract {
-  padding: 10px 10px 10px 110px;
-}
-
-.summary-abstract:hover {
+.summary li a:hover .summary-abstract{
   background-color: rgba(255,255,255,0.3);
   box-shadow: 3px 3px 6px;
   transition: background-color 0.3s ease-in, box-shadow 0.3s, ease-in;
 }
 
-.summary-abstract:hover p {
-  color: #333333;
+.summary li a:hover p {
+  color: #333;
+}
+
+.summary-abstract {
+  padding: 10px 10px 10px 110px;
 }
 
 .summary-abstract em {
