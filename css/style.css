@@ -45,7 +45,7 @@ body {
 }
 
 .content p, .content ul {
-  font: 1.1em "Roboto",sans-serif;
+  font: 1em "Roboto",sans-serif;
   color: rgb(63, 63, 63);
   text-shadow: 0px 1px 0px #F3F3F3;
 }
